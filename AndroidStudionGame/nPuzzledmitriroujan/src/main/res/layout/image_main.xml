@@ -1,0 +1,20 @@
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:focusable="false">
+
+    <GridView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:background="#f7f7f7"
+        android:longClickable="true"
+        android:id="@+id/gridView" />
+
+</FrameLayout>
